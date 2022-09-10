@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_title %}
+    Home
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock %}
+
+{% block contents %}
+    <div id="page1">
+        <h1 class="tilt__Left">#3D!</h1>
+        <h1 class="tilt__Right">Blast</h1>
+        <h1 id="comment2">Welcome!</h1>
+        <h1 class="tilt__Left">fun!</h1>
+        <h1 class="tilt__Right">Wow!</h1>
+    </div>
+    <div id="page1-2">
+        <h1></h1>
+        <h1 class="tilt__Left">PLA</h1>
+        <h1 class="tilt__Right">Cool!</h1>
+        <h1></h1>
+        <h1 class="tilt__Left">TPU</h1>
+        <h1></h1>
+    </div>
+    <div class="grid-container">
+        <div class="grid-content">
+            <img src="https://cdn.thingiverse.com/assets/c1/c7/cc/80/53/featured_preview_Sizzling_Migelo.png" alt="image">
+        </div>
+        <div class="grid-content">
+            <img src="https://cdn.thingiverse.com/assets/03/fa/85/c1/bd/featured_preview_54f5c4c8-9761-4b6d-b8b5-d570e4db490f.png" alt="image2">
+        </div>
+        <div class="grid-content">Text</div>
+        <div class="grid-content">Text</div>
+    </div>
+
+
+
+{% endblock %}

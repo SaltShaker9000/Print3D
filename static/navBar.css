@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+header{
+    display: flex;
+    background-color: rgba(3,3,3,0.92);
+    height: 5rem;
+    justify-content: space-around;
+    margin: 0 0 2px 0;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 15rem;
+    height: 5rem;
+    margin: 0 0;
+    padding: 0;
+
+}
+
+a{
+    list-style: none;
+    margin: 0 1rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+}
+
+button{
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 2rem;
+    background-color: #506eff;
+    height: 2rem;
+    width: 5rem;
+    transition: 0.3s ease 0s;
+
+
+}
+#signBnt{
+    padding: 1.5rem 0;
+    height: 30px;
+    width: 80px;
+    margin: 0 3rem;
+}
+
+#logo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    padding: 0.5rem 0;
+    transition: 0.3s ease 0s;
+}
+
+span{
+    color: #506eff;
+}
+
+#logo:hover{
+    color: #808080;
+}
+
+button:hover{
+    background-color: #808080;
+
+}
+
+#hoverBar:hover{
+    color: #506eff;
+    border-top: #506eff solid 3px;
+}

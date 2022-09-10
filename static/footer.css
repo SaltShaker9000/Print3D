@@ -1,0 +1,12 @@
+#footer{
+    background-color: rgba(3,3,3,0.92);
+    height: 10rem;
+    width: auto;
+    justify-content: center;
+}
+
+#footText{
+    list-style: none;
+    color: #595959;
+    font-size: 2rem;
+}
